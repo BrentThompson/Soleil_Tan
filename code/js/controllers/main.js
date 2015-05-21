@@ -7,7 +7,7 @@
         name: "controllers/settings",
         template: "settings"
       },
-      TIMERS: "timer"
+      TIMERS: "timers"
     };
     return Main_App = (function() {
       function Main_App() {

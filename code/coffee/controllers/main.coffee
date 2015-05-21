@@ -1,14 +1,14 @@
 define (require) ->
-  ko = require 'knockout'
+	ko = require 'knockout'
 
-  PAGE = 
-    SETTINGS: 
-      name: "controllers/settings"
-      template: "settings"
-    TIMERS: "timer"
+	PAGE =
+		SETTINGS: 
+			name: "controllers/settings"
+			template: "settings"
+		TIMERS: "timers"
 
-  class Main_App
-    constructor: ->
-      @page = ko.observable PAGE.SETTINGS
-      return
-      
+	class Main_App
+		constructor: ->
+			#Do stuff here
+			@page = ko.observable PAGE.SETTINGS
+			return
