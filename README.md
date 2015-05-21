@@ -1,5 +1,4 @@
-Soleil_Tan
+mobile_class_2015
+=================
 
-This is the working repo for Soleil Tan, the sunscreen reapplication timer app by team Soleil Solution.
-Soleil Solution consists of Brent Thompson and Carl Phillips.
-
+MIT Licensed, 2015
