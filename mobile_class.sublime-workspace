@@ -268,7 +268,7 @@
 			}
 		},
 		{
-			"file": "code/coffee/controllers/settings.coffee",
+			"file": "code/coffee/controllers/add_user.coffee",
 			"settings":
 			{
 				"buffer_size": 1030,
@@ -276,10 +276,10 @@
 			}
 		},
 		{
-			"file": "ko_templates/settings.html",
+			"file": "ko_templates/add_user.html",
 			"settings":
 			{
-				"buffer_size": 1015,
+				"buffer_size": 1008,
 				"line_ending": "Windows"
 			}
 		},
@@ -598,14 +598,11 @@
 	},
 	"expanded_folders":
 	[
-		"/C/mobile_class/class05",
-		"/C/mobile_class/class05/code",
-		"/C/mobile_class/class05/code/coffee",
-		"/C/mobile_class/class05/code/coffee/controllers",
-		"/C/mobile_class/class05/code/js",
-		"/C/mobile_class/class05/code/js/controllers",
-		"/C/mobile_class/class05/ko_templates",
-		"/C/mobile_class/class05/style"
+		"/C/mobile_class/Soleil_Tan",
+		"/C/mobile_class/Soleil_Tan/code",
+		"/C/mobile_class/Soleil_Tan/code/coffee",
+		"/C/mobile_class/Soleil_Tan/code/coffee/controllers",
+		"/C/mobile_class/Soleil_Tan/ko_templates"
 	],
 	"file_history":
 	[
@@ -930,7 +927,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1014,16 +1011,16 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "code/coffee/controllers/settings.coffee",
+					"file": "code/coffee/controllers/add_user.coffee",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1048,7 +1045,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1059,19 +1056,19 @@
 			[
 				{
 					"buffer": 4,
-					"file": "ko_templates/settings.html",
+					"file": "ko_templates/add_user.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1015,
+						"buffer_size": 1008,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1015,
-								1015
+								1008,
+								1008
 							]
 						],
 						"settings":
@@ -1084,7 +1081,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1724,7 +1721,7 @@
 		],
 		"width": 624.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
