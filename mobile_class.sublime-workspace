@@ -247,7 +247,15 @@
 			"file": "ko_templates/main.html",
 			"settings":
 			{
-				"buffer_size": 70,
+				"buffer_size": 79,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.coffee",
+			"settings":
+			{
+				"buffer_size": 1653,
 				"line_ending": "Windows"
 			}
 		},
@@ -263,7 +271,7 @@
 			"file": "code/coffee/controllers/main.coffee",
 			"settings":
 			{
-				"buffer_size": 253,
+				"buffer_size": 252,
 				"line_ending": "Windows"
 			}
 		},
@@ -271,7 +279,7 @@
 			"file": "code/coffee/controllers/add_user.coffee",
 			"settings":
 			{
-				"buffer_size": 1030,
+				"buffer_size": 459,
 				"line_ending": "Windows"
 			}
 		},
@@ -279,7 +287,31 @@
 			"file": "ko_templates/add_user.html",
 			"settings":
 			{
-				"buffer_size": 1008,
+				"buffer_size": 2203,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/app.less",
+			"settings":
+			{
+				"buffer_size": 30,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bower_components/bootstrap/bower.json",
+			"settings":
+			{
+				"buffer_size": 903,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style/parts/settings.less",
+			"settings":
+			{
+				"buffer_size": 261,
 				"line_ending": "Windows"
 			}
 		},
@@ -599,13 +631,22 @@
 	"expanded_folders":
 	[
 		"/C/mobile_class/Soleil_Tan",
+		"/C/mobile_class/Soleil_Tan/bower_components",
+		"/C/mobile_class/Soleil_Tan/bower_components/bootstrap",
+		"/C/mobile_class/Soleil_Tan/bower_components/bootstrap/dist",
+		"/C/mobile_class/Soleil_Tan/bower_components/bootstrap/dist/css",
 		"/C/mobile_class/Soleil_Tan/code",
 		"/C/mobile_class/Soleil_Tan/code/coffee",
 		"/C/mobile_class/Soleil_Tan/code/coffee/controllers",
-		"/C/mobile_class/Soleil_Tan/ko_templates"
+		"/C/mobile_class/Soleil_Tan/code/js",
+		"/C/mobile_class/Soleil_Tan/ko_templates",
+		"/C/mobile_class/Soleil_Tan/style",
+		"/C/mobile_class/Soleil_Tan/style/parts"
 	],
 	"file_history":
 	[
+		"/C/mobile_class/Soleil_Tan/style/parts/slider.less",
+		"/C/mobile_class/Soleil_Tan/style/parts/slider_backup.less",
 		"/E/Class_5/code/coffee/controllers/main.coffee",
 		"/C/Users/ThompsonBN/AppData/Roaming/Sublime Text 3/Packages/User/Diffy.sublime-settings",
 		"/C/Users/ThompsonBN/AppData/Roaming/Sublime Text 3/Packages/Diffy/Diffy.sublime-settings",
@@ -731,9 +772,7 @@
 		"/C/Dropbox/TedChef_dev/website/ci_application/index.html",
 		"/C/Dropbox/TedChef_dev/website/html/node_modules/mout/math/isNear.js",
 		"/C/Dropbox/TedChef_dev/website/html/app/code/require_config.js",
-		"/C/Dropbox/TedChef_dev/website/sparks/php-activerecord/0.0.2/vendor/php-activerecord/lib/Config.php",
-		"/C/Dropbox/TedChef_dev/website/html/bower_components/font-awesome/_config.yml",
-		"/C/Dropbox/TedChef_dev/website/html/bower_components/bootstrap3-timepicker/_config.yml"
+		"/C/Dropbox/TedChef_dev/website/sparks/php-activerecord/0.0.2/vendor/php-activerecord/lib/Config.php"
 	],
 	"find":
 	{
@@ -744,6 +783,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"*.*,C:\\mobile_class\\Soleil_Tan",
 			"*.*",
 			"*.coffee",
 			"*.less",
@@ -776,6 +816,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"baseLineHeight",
+			"baseLine",
+			"baseLineHeight",
+			"baseline",
 			"\"~",
 			"third_party",
 			"keymage",
@@ -899,18 +943,15 @@
 			"model",
 			"view",
 			"compose",
-			"pickers/vms",
-			"common_picker",
-			"vms",
-			"views",
-			"pickers"
+			"pickers/vms"
 		],
 		"highlight": true,
 		"in_selection": false,
-		"preserve_case": true,
+		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"baseline",
 			"group",
 			"recipe/element",
 			"recipe/pickers",
@@ -927,7 +968,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -936,15 +977,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 70,
+						"buffer_size": 79,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								70,
-								70
+								79,
+								79
 							]
 						],
 						"settings":
@@ -960,6 +1001,36 @@
 				},
 				{
 					"buffer": 1,
+					"file": "Gruntfile.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								803,
+								823
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "code/coffee/app.coffee",
 					"semi_transient": false,
 					"settings":
@@ -985,54 +1056,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "code/coffee/controllers/main.coffee",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 253,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								253,
-								253
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "code/coffee/controllers/add_user.coffee",
+					"file": "code/coffee/controllers/main.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1030,
+						"buffer_size": 252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								439,
-								439
+								171,
+								171
 							]
 						],
 						"settings":
@@ -1045,30 +1086,60 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "code/coffee/controllers/add_user.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "ko_templates/add_user.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1008,
+						"buffer_size": 2203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1008,
-								1008
+								61,
+								61
 							]
 						],
 						"settings":
@@ -1081,11 +1152,97 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "style/app.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "bower_components/bootstrap/bower.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
+					"file": "style/parts/settings.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
@@ -1097,8 +1254,8 @@
 						"selection":
 						[
 							[
-								777,
-								777
+								449,
+								449
 							]
 						],
 						"settings":
@@ -1188,6 +1345,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"slider",
+				"style\\parts\\slider.less"
+			],
 			[
 				"fi",
 				"ko_templates\\first_page.html"
@@ -1695,10 +1856,6 @@
 			[
 				"stepcof",
 				"ux_app/code/coffee/recipe/step_vm.coffee"
-			],
-			[
-				"stepjs",
-				"ux_app/code/js/recipe/step_vm.js"
 			]
 		],
 		"width": 0.0

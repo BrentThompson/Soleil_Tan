@@ -1,10 +1,9 @@
 body {
-  background-color: #E3F2FF;
+  background: url('../../images/Soleil_Tan.jpg');
+  background-size: 1000px 1750px;
+  padding-bottom: 70px;
 }
 .form-group {
-  background-color: white;
   padding: 5px 0 5px 0;
-  border-bottom: 1px solid #92CBFC;
-  border-top: 1px solid #92CBFC;
 }
 /*# sourceMappingURL=app.css.map */
