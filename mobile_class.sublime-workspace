@@ -244,42 +244,42 @@
 	"buffers":
 	[
 		{
+			"file": "code/coffee/add_user.coffee",
+			"settings":
+			{
+				"buffer_size": 398,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "code/coffee/main.coffee",
+			"settings":
+			{
+				"buffer_size": 394,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "code/coffee/home.coffee",
+			"settings":
+			{
+				"buffer_size": 269,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "code/coffee/sunburn.coffee",
+			"settings":
+			{
+				"buffer_size": 171,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "ko_templates/main.html",
 			"settings":
 			{
-				"buffer_size": 79,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Gruntfile.coffee",
-			"settings":
-			{
-				"buffer_size": 1653,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "code/coffee/app.coffee",
-			"settings":
-			{
-				"buffer_size": 795,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "code/coffee/controllers/main.coffee",
-			"settings":
-			{
-				"buffer_size": 252,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "code/coffee/controllers/add_user.coffee",
-			"settings":
-			{
-				"buffer_size": 459,
+				"buffer_size": 462,
 				"line_ending": "Windows"
 			}
 		},
@@ -287,31 +287,15 @@
 			"file": "ko_templates/add_user.html",
 			"settings":
 			{
-				"buffer_size": 2203,
+				"buffer_size": 2245,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "style/app.less",
+			"file": "ko_templates/home.html",
 			"settings":
 			{
-				"buffer_size": 30,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "bower_components/bootstrap/bower.json",
-			"settings":
-			{
-				"buffer_size": 903,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "style/parts/settings.less",
-			"settings":
-			{
-				"buffer_size": 261,
+				"buffer_size": 169,
 				"line_ending": "Windows"
 			}
 		},
@@ -319,7 +303,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 887,
+				"buffer_size": 848,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ko_templates/sunburn.html",
+			"settings":
+			{
+				"buffer_size": 912,
 				"line_ending": "Windows"
 			}
 		}
@@ -631,13 +623,10 @@
 	"expanded_folders":
 	[
 		"/C/mobile_class/Soleil_Tan",
-		"/C/mobile_class/Soleil_Tan/bower_components",
-		"/C/mobile_class/Soleil_Tan/bower_components/bootstrap",
 		"/C/mobile_class/Soleil_Tan/bower_components/bootstrap/dist",
 		"/C/mobile_class/Soleil_Tan/bower_components/bootstrap/dist/css",
 		"/C/mobile_class/Soleil_Tan/code",
 		"/C/mobile_class/Soleil_Tan/code/coffee",
-		"/C/mobile_class/Soleil_Tan/code/coffee/controllers",
 		"/C/mobile_class/Soleil_Tan/code/js",
 		"/C/mobile_class/Soleil_Tan/ko_templates",
 		"/C/mobile_class/Soleil_Tan/style",
@@ -645,6 +634,12 @@
 	],
 	"file_history":
 	[
+		"/C/mobile_class/Soleil_Tan/style/app.less",
+		"/C/mobile_class/Soleil_Tan/code/coffee/app.coffee",
+		"/C/mobile_class/Soleil_Tan/code/coffee/settings.coffee",
+		"/C/mobile_class/Soleil_Tan/code/coffee/controllers/main.coffee",
+		"/C/mobile_class/Soleil_Tan/code/coffee/controllers/add_user.coffee",
+		"/C/mobile_class/Soleil_Tan/Gruntfile.coffee",
 		"/C/mobile_class/Soleil_Tan/style/parts/slider.less",
 		"/C/mobile_class/Soleil_Tan/style/parts/slider_backup.less",
 		"/E/Class_5/code/coffee/controllers/main.coffee",
@@ -766,13 +761,7 @@
 		"/C/Dropbox/TedChef_dev/website/html/test/specs/recipe/step_vm.spec.coffee",
 		"/C/Dropbox/TedChef_dev/website/html/dev/styles/variables.less",
 		"/C/Dropbox/TedChef_dev/website/html/app/code/recipe/pickers/parts/time_sub.js",
-		"/C/Dropbox/TedChef_dev/website/html/dev/code/require_config.coffee",
-		"/C/Dropbox/TedChef_dev/website/html/index.html",
-		"/C/Dropbox/TedChef_dev/website/html/bower_components/bootstrap3-timepicker/js/bootstrap-timepicker.js",
-		"/C/Dropbox/TedChef_dev/website/ci_application/index.html",
-		"/C/Dropbox/TedChef_dev/website/html/node_modules/mout/math/isNear.js",
-		"/C/Dropbox/TedChef_dev/website/html/app/code/require_config.js",
-		"/C/Dropbox/TedChef_dev/website/sparks/php-activerecord/0.0.2/vendor/php-activerecord/lib/Config.php"
+		"/C/Dropbox/TedChef_dev/website/html/dev/code/require_config.coffee"
 	],
 	"find":
 	{
@@ -973,47 +962,49 @@
 			[
 				{
 					"buffer": 0,
-					"file": "ko_templates/main.html",
+					"file": "code/coffee/add_user.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 79,
+						"buffer_size": 398,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								79,
-								79
+								395,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Gruntfile.coffee",
+					"file": "code/coffee/main.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1653,
+						"buffer_size": 394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								803,
-								823
+								197,
+								197
 							]
 						],
 						"settings":
@@ -1026,125 +1017,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "code/coffee/app.coffee",
+					"file": "code/coffee/home.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 795,
+						"buffer_size": 269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								435,
-								435
+								269,
+								269
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "code/coffee/controllers/main.coffee",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								171,
-								171
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "code/coffee/controllers/add_user.coffee",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 459,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								185,
-								184
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 5,
-					"file": "ko_templates/add_user.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2203,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								61,
-								61
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1156,53 +1051,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "style/app.less",
+					"buffer": 3,
+					"file": "code/coffee/sunburn.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30,
+						"buffer_size": 171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								30,
-								30
+								106,
+								106
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "bower_components/bootstrap/bower.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 903,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1210,52 +1077,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 8,
-					"file": "style/parts/settings.less",
+					"buffer": 4,
+					"file": "ko_templates/main.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 261,
+						"buffer_size": 462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 887,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								449,
-								449
+								258,
+								258
 							]
 						],
 						"settings":
@@ -1268,7 +1113,126 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "ko_templates/add_user.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1980,
+								1948
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 800.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "ko_templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								848,
+								848
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "ko_templates/sunburn.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								912,
+								912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
