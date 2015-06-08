@@ -3,15 +3,15 @@
     var Main_App, PAGE, ko;
     ko = require('knockout');
     PAGE = {
-      SETTINGS: {
-        name: "controllers/settings",
-        template: "settings"
+      ADDUSER: {
+        name: "controllers/add_user",
+        template: "add_user"
       },
       TIMERS: "timer"
     };
     return Main_App = (function() {
       function Main_App() {
-        this.page = ko.observable(PAGE.SETTINGS);
+        this.page = ko.observable(PAGE.ADDUSER);
         return;
       }
 
