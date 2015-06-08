@@ -1,0 +1,66 @@
+<!-- inside a <div data-role="content"/> -->
+<h2>Add User</h2>
+
+<form class="form-horizontal" role="form">
+
+  <!-- Name field -->
+  <div class="form-group">
+    <label for="name" class="col-xs-2 control-label">Name</label>
+    <div class="col-xs-10">
+     <input type="text" class="form-control" value="" data-bind="value: name, valueUpdate: 'input'" />
+    </div>
+  </div>
+
+  <!-- Skin type slider -->
+  <div class="form-group">
+    <label for="skin_type" class="col-xs-6 control-label">Skin type</label>
+    <div class="col-xs-6">
+    <input type="text" class="span2" value="" data-slider-min="-20" data-slider-max="20" data-slider-step="1" data-slider-value="-14" data-slider-orientation="vertical" data-slider-selection="after"data-slider-tooltip="hide" data-bind="value: skin_type, valueUpdate: 'input'" >
+    </div>
+<!--             <div class="span9 columns">
+          <h2>Example</h2>
+          <p>Basic example with custom formater</p>
+          <div class="well">
+            <input type="text" class="span2" value="4" id="sl1" >
+          </div> -->
+  </div>
+
+  <!-- Age field -->
+  <div class="form-group">
+     <label for="age" class="col-xs-2 control-label">Age</label>
+    <div class="col-xs-10">
+     <input type="number" class="form-control" value="" data-bind="value: age, valueUpdate: 'input'" />
+    </div>
+  </div>
+
+  <!-- Sunblock field -->
+  <div class="form-group">
+    <label for="sunblock" class="col-xs-2 control-label">Sunblock</label>
+    <div class="col-xs-10">
+     <input type="text" class="form-control" value="" data-bind="value: sunblock, valueUpdate: 'input'" />
+    </div>
+  </div>
+
+  <!-- SPF field -->
+  <div class="form-group">
+     <label for="spf" class="col-xs-2 control-label">SPF</label>
+    <div class="col-xs-10">
+     <input type="number" class="form-control" value="" data-bind="value: spf, valueUpdate: 'input'" />
+    </div>
+  </div>
+
+</form>
+
+<nav>
+  <ul class="pager">
+    <li class="previous" data-bind="click: cancel_button"><a href="#">Cancel</a></li>
+    <li class="next"><a href="#">Save</a></li>
+  </ul>
+</nav>
+
+<script type="text/javascript">        
+$('#sl1').slider({
+          formater: function(value) {
+            return 'Current value: '+value;
+          }
+        });</script>
