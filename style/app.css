@@ -1,6 +1,6 @@
 body {
   background: url('../../images/Soleil_Tan.jpg');
-  background-size: 1000px 1750px;
+  background-size: cover;
   padding-bottom: 70px;
 }
 .form-group {
@@ -8,5 +8,14 @@ body {
 }
 .pager {
   padding: 5px 5px 5px 5px;
+}
+.navbar {
+  padding: 5px 0 5px 0;
+  background-color: blue;
+}
+.btn-default {
+  background-color: blue;
+  border: none;
+  color: white;
 }
 /*# sourceMappingURL=app.css.map */

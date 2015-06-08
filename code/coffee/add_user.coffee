@@ -13,6 +13,11 @@ define (require) ->
       @name.subscribe (nV) -> console.log nV
       return
 
+    make_user: () =>
+      
+
+
+
     cancel_button: (d,e) =>
       main.Open_Home()
 

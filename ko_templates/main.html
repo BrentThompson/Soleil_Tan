@@ -1,10 +1,17 @@
 <div data-bind="module: page"></div>
 
 <nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-    <button id="button" style="float: left" data-bind="click: Open_Adduser">Add User</button>
-    <button id="button" style="float: middle" data-bind="click: Open_Home">Home</button>    
-  <button id="button" style="float: right" data-bind="click: Open_Sunburn">Sunburn Help</button>
+  <div class="btn-group btn-group-justified" role="group">
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-default" data-bind="click: Open_Adduser">Add User</button>
+    </div>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-default" data-bind="click: Open_Home">Home</button>  
+    </div>
+    <div class="btn-group" role="group">  
+      <button type="button" class="btn btn-default" data-bind="click: Open_Sunburn">Sunburn Help</button>
+    </div>
+    </div>
   </div>
 </nav>
 <!-- <footer>This is a footer</footer> -->
