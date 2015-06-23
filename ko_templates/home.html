@@ -1,5 +1,11 @@
 <h3>Home page</h3>
-
-<button class="btn" data-bind="click: Adduser_Button">Add User</button>
-<button class="btn" data-bind="click: Sunburn_Button">Sunburn Help</button>
-
+<button type="button" class="btn btn-default" data-bind="click: Adduser_Button, visible: user_list().length == 0">Add User</button>
+<ul data-bind="foreach: user_list, visible: user_list().length > 0">
+  <li class="list_item">
+    <td>
+      <text class="col-sm-6 col-xs-6" data-bind="text: name" />
+      <button type="button" class="btn btn-default col-xs-2" data-bind="">Apply</button>
+      <button type="button" class="btn btn-default col-xs-2 col-xs-offset-1" data-toggle="button">Active</button>
+    </td>
+  </li>
+</ul>

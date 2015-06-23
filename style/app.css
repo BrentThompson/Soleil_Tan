@@ -18,4 +18,8 @@ body {
   border: none;
   color: white;
 }
+.list_item {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
 /*# sourceMappingURL=app.css.map */

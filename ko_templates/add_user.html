@@ -6,7 +6,7 @@
   <!-- Name field -->
   <div class="form-group">
     <label for="name" class="col-sm-2 control-label">Name</label>
-    <div class="col-sm-10">
+    <div class="col-sm-8">
      <input type="text" class="form-control" value="" data-bind="value: name, valueUpdate: 'input'" />
     </div>
   </div>
@@ -28,7 +28,7 @@
   <!-- Age field -->
   <div class="form-group">
      <label for="age" class="col-sm-2 control-label">Age</label>
-    <div class="col-sm-10">
+    <div class="col-sm-4">
      <input type="number" class="form-control" value="" data-bind="value: age, valueUpdate: 'input'" />
     </div>
   </div>
@@ -36,7 +36,7 @@
   <!-- Sunblock field -->
   <div class="form-group">
     <label for="sunblock" class="col-sm-2 control-label">Sunblock</label>
-    <div class="col-sm-10">
+    <div class="col-sm-8">
      <input type="text" class="form-control" value="" data-bind="value: sunblock, valueUpdate: 'input'" />
     </div>
   </div>
@@ -44,7 +44,7 @@
   <!-- SPF field -->
   <div class="form-group">
      <label for="spf" class="col-sm-2 control-label">SPF</label>
-    <div class="col-sm-8">
+    <div class="col-sm-4">
      <input type="number" class="form-control" value="" data-bind="value: spf, valueUpdate: 'input'" />
     </div>
   </div>
@@ -54,7 +54,7 @@
 <nav>
   <ul class="pager">
     <li class="previous" data-bind="click: cancel_button"><a href="#">Cancel</a></li>
-    <li class="next"><a href="#">Save</a></li>
+    <li class="next" data-bind="click: make_user"><a href="#">Save</a></li>
   </ul>
 </nav>
 

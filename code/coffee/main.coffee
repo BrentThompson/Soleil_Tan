@@ -11,6 +11,8 @@ define (require) ->
     constructor: ->
       @page = ko.observable PAGE.HOME
       @user_list = ko.observableArray []
+
+      @user_list.subscribe (nV) -> console.log nV
       return
       
     Open_Adduser: (d,e) =>
@@ -22,7 +24,7 @@ define (require) ->
     Open_Home: (d,e) =>
       @page PAGE.HOME
 
-    Add_user: (user) =>
+    Add_User: (user) =>
       @user_list.push user
 
   return new Main_App()

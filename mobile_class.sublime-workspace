@@ -247,7 +247,7 @@
 			"file": "code/coffee/add_user.coffee",
 			"settings":
 			{
-				"buffer_size": 429,
+				"buffer_size": 651,
 				"line_ending": "Windows"
 			}
 		},
@@ -255,7 +255,7 @@
 			"file": "code/coffee/main.coffee",
 			"settings":
 			{
-				"buffer_size": 487,
+				"buffer_size": 538,
 				"line_ending": "Windows"
 			}
 		},
@@ -263,7 +263,7 @@
 			"file": "code/coffee/home.coffee",
 			"settings":
 			{
-				"buffer_size": 269,
+				"buffer_size": 266,
 				"line_ending": "Windows"
 			}
 		},
@@ -276,14 +276,6 @@
 			}
 		},
 		{
-			"file": "ko_templates/main.html",
-			"settings":
-			{
-				"buffer_size": 685,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "style/parts/settings.less",
 			"settings":
 			{
@@ -292,18 +284,10 @@
 			}
 		},
 		{
-			"file": "ko_templates/add_user.html",
+			"file": "ko_templates/main.html",
 			"settings":
 			{
-				"buffer_size": 2244,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "ko_templates/home.html",
-			"settings":
-			{
-				"buffer_size": 169,
+				"buffer_size": 685,
 				"line_ending": "Windows"
 			}
 		},
@@ -312,6 +296,22 @@
 			"settings":
 			{
 				"buffer_size": 848,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ko_templates/add_user.html",
+			"settings":
+			{
+				"buffer_size": 2270,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ko_templates/home.html",
+			"settings":
+			{
+				"buffer_size": 288,
 				"line_ending": "Windows"
 			}
 		},
@@ -963,7 +963,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -972,15 +972,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 429,
+						"buffer_size": 651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								70,
-								70
+								513,
+								513
 							]
 						],
 						"settings":
@@ -1002,15 +1002,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 487,
+						"buffer_size": 538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								487,
-								487
+								256,
+								256
 							]
 						],
 						"settings":
@@ -1020,10 +1020,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1032,15 +1032,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 269,
+						"buffer_size": 266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								269,
-								269
+								141,
+								141
 							]
 						],
 						"settings":
@@ -1053,7 +1053,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1083,47 +1083,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "ko_templates/main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 685,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								192,
-								192
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "style/parts/settings.less",
 					"semi_transient": false,
 					"settings":
@@ -1135,83 +1099,61 @@
 						"selection":
 						[
 							[
-								421,
-								421
+								152,
+								152
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "ko_templates/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "ko_templates/add_user.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2244,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								192,
-								192
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "ko_templates/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 169,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								158,
-								158
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
@@ -1241,6 +1183,66 @@
 					"type": "text"
 				},
 				{
+					"buffer": 7,
+					"file": "ko_templates/add_user.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2053,
+								2053
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "ko_templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
 					"buffer": 9,
 					"file": "ko_templates/sunburn.html",
 					"semi_transient": false,
@@ -1253,8 +1255,8 @@
 						"selection":
 						[
 							[
-								912,
-								912
+								266,
+								266
 							]
 						],
 						"settings":
@@ -1266,7 +1268,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

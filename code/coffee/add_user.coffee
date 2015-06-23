@@ -8,13 +8,22 @@ define (require) ->
       @name = ko.observable "Name"
       @skin_type = ko.observable "5"
       @sunblock = ko.observable "Sunblock"
-      @spf = ko.observable "30"
+      @spf = ko.observable "30" 
 
-      @name.subscribe (nV) -> console.log nV
+      # @name.subscribe (nV) -> console.log nV
       return
 
-    make_user: () =>
-      
+    make_user: (d,e) =>
+      this_user = 
+        name: @name()
+        age: @age()
+        skin_type: @skin_type()
+        sunblock: @sunblock()
+        spf: @spf()
+        reapply_time: 23
+
+      main.Add_User(this_user)
+      main.Open_Home()
 
 
 

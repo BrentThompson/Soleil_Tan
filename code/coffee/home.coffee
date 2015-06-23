@@ -4,7 +4,7 @@ define (require) ->
 
   class Home 
     constructor: () ->
-      @dummy = ko.observable "dummy"
+      @user_list = main.user_list
       return
 
     Adduser_Button: (d,e) =>
