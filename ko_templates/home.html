@@ -3,7 +3,9 @@
 <ul data-bind="foreach: user_list, visible: user_list().length > 0">
   <li class="list_item">
     <td>
-      <text class="col-sm-6 col-xs-6" data-bind="text: name" />
+      <button type = "button" class="btn btn-default col-sm-6 col-xs-6" data-bind = "click: Update_Button, text: name">
+      <!-- <text class="col-sm-6 col-xs-6" data-bind="text: name" /> -->
+      </button>
       <button type="button" class="btn btn-default col-xs-2" data-bind="">Apply</button>
       <button type="button" class="btn btn-default col-xs-2 col-xs-offset-1" data-toggle="button">Active</button>
     </td>
