@@ -19,8 +19,8 @@
         this.sunblock = ko.observable("Sunblock");
         this.spf = ko.observable("30");
         this.current_user_local = main.current_user;
-        if (main.current_user >= 0) {
-          curr_user = main.user_list()[main.current_user];
+        if (main.current_user() >= 0) {
+          curr_user = main.user_list()[main.current_user()];
           this.age = curr_user.age;
           this.name = curr_user.name;
           this.skin_type = curr_user.skin_type;
@@ -54,13 +54,13 @@
           spf: this.spf(),
           reapply_time: 23
         };
-        main.Update_User(main.current_user, this_user);
+        main.Update_User(main.current_user(), this_user);
         main.current_user = -1;
         return main.Open_Home();
       };
 
       Main_VM.prototype.delete_user = function(d, e) {
-        main.Delete_User(main.current_user);
+        main.Delete_User(main.current_user());
         main.current_user = -1;
         return main.Open_Home();
       };

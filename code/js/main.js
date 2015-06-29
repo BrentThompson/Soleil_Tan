@@ -26,9 +26,6 @@
             key: "user_list"
           }
         });
-        this.current_user.subscribe(function(nV) {
-          return console.log(nV);
-        });
         return;
       }
 

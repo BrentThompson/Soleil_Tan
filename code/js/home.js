@@ -14,10 +14,10 @@
         return;
       }
 
-      Home.prototype.Update_Button = function(d, e) {
-        console.log(d);
-        console.log(e);
-        return main.Open_adduser();
+      Home.prototype.Update_Button = function(index, d, e) {
+        console.log(index());
+        main.current_user = index;
+        return main.Open_Adduser();
       };
 
       Home.prototype.Adduser_Button = function(d, e) {

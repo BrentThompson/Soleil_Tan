@@ -3,10 +3,8 @@
 <ul data-bind="foreach: user_list, visible: user_list().length > 0">
   <li class="list_item">
     <td>
-      <button type = "button" class="btn btn-default col-sm-6 col-xs-6" data-bind = "click: Update_Button, text: name">
-      <!-- <text class="col-sm-6 col-xs-6" data-bind="text: name" /> -->
-      </button>
-      <button type="button" class="btn btn-default col-xs-2" data-bind="">Apply</button>
+      <button type = "button" class="btn btn-default col-sm-5 col-xs-5" data-bind = "click: $parent.Update_Button.bind($data, $index)">Test</button>
+      <button type="button" class="btn btn-default col-xs-2 col-xs-offset-1" data-bind="">Apply</button>
       <button type="button" class="btn btn-default col-xs-2 col-xs-offset-1" data-toggle="button">Active</button>
     </td>
   </li>

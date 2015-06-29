@@ -18,7 +18,7 @@ define (require) ->
           key: "user_list"
 
       # @user_list.subscribe (nV) -> console.log nV
-      @current_user.subscribe (nV) -> console.log nV
+      # @current_user.subscribe (nV) -> console.log nV
       return
       
     Open_Adduser: (d,e) =>

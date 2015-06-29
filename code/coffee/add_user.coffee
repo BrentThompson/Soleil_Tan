@@ -12,9 +12,11 @@ define (require) ->
       @spf = ko.observable "30" 
 
       @current_user_local = main.current_user
+      # console.log main.current_user()
 
-      if main.current_user >=0
-        curr_user = main.user_list()[main.current_user]
+      if main.current_user() >=0
+        # console.log 'updating'
+        curr_user = main.user_list()[main.current_user()]
         @age = curr_user.age
         @name = curr_user.name
         @skin_type = curr_user.skin_type
@@ -45,12 +47,12 @@ define (require) ->
         spf: @spf()
         reapply_time: 23
 
-      main.Update_User(main.current_user,this_user)
+      main.Update_User(main.current_user(),this_user)
       main.current_user = -1
       main.Open_Home()
 
     delete_user: (d,e) =>
-      main.Delete_User(main.current_user)
+      main.Delete_User(main.current_user())
       main.current_user = -1
       main.Open_Home()
 
