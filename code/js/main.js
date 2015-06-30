@@ -21,6 +21,9 @@
         this.Open_Adduser = bind(this.Open_Adduser, this);
         this.page = ko.observable(PAGE.HOME);
         this.current_user = ko.observable(-1);
+        this.current_user.subscribe(function(nV) {
+          return console.log(nV);
+        });
         this.user_list = ko.observableArray([]).extend({
           store_locally: {
             key: "user_list"
@@ -46,7 +49,7 @@
       };
 
       Main_App.prototype.Edit_User = function(index) {
-        this.current_user = index;
+        this.current_user(index);
         return this.page(PAGE.ADDUSER);
       };
 

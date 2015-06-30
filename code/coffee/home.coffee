@@ -11,7 +11,7 @@ define (require) ->
       # console.log d
       # console.log e
       console.log index()
-      main.current_user = index
+      main.current_user index()
       main.Open_Adduser()
 
     Adduser_Button: (d,e) =>

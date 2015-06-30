@@ -16,7 +16,7 @@
 
       Home.prototype.Update_Button = function(index, d, e) {
         console.log(index());
-        main.current_user = index;
+        main.current_user(index());
         return main.Open_Adduser();
       };
 

@@ -12,6 +12,7 @@ define (require) ->
     constructor: ->
       @page = ko.observable PAGE.HOME
       @current_user = ko.observable -1
+      @current_user.subscribe (nV) -> console.log nV
       @user_list = ko.observableArray []
       .extend
         store_locally:
@@ -36,7 +37,7 @@ define (require) ->
       @user_list.push user
 
     Edit_User: (index) =>
-      @current_user = index
+      @current_user index
       @page PAGE.ADDUSER
 
     Update_User: (index,user) =>
