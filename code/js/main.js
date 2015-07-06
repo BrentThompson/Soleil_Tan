@@ -12,6 +12,8 @@
     };
     Main_App = (function() {
       function Main_App() {
+        this.Update_Uvindex = bind(this.Update_Uvindex, this);
+        this.Get_Uvindex = bind(this.Get_Uvindex, this);
         this.Delete_User = bind(this.Delete_User, this);
         this.Update_User = bind(this.Update_User, this);
         this.Edit_User = bind(this.Edit_User, this);
@@ -21,13 +23,14 @@
         this.Open_Adduser = bind(this.Open_Adduser, this);
         this.page = ko.observable(PAGE.HOME);
         this.current_user = ko.observable(-1);
-        this.current_user.subscribe(function(nV) {
-          return console.log(nV);
-        });
         this.user_list = ko.observableArray([]).extend({
           store_locally: {
             key: "user_list"
           }
+        });
+        this.current_uv_index = ko.observable(5);
+        this.current_uv_index.subscribe(function(nV) {
+          return console.log(nV);
         });
         return;
       }
@@ -59,6 +62,23 @@
 
       Main_App.prototype.Delete_User = function(index) {
         return this.user_list.remove(this.user_list()[index]);
+      };
+
+      Main_App.prototype.Get_Uvindex = function(zipcode) {
+        var body;
+        request.get({
+          uri: ' http://iaspub.epa.gov/enviro/efservice/getEnvirofactsUVHOURLY/ZIP/' + zipcode + '/JSON ',
+          json: true
+        }, function(err, r, body) {
+          var results;
+          return results = body;
+        });
+        body = ko.mapping.fromJS(body);
+        return console.log(body);
+      };
+
+      Main_App.prototype.Update_Uvindex = function() {
+        return this.Get_Uvindex('35811');
       };
 
       return Main_App;

@@ -1,3 +1,6 @@
+var ko;
+ko = require("knockout")
+
 ko.bindingHandlers.sliderValue = {
 	init: function (element, valueAccessor, allBindings, viewModel, bindingContext) {
 		var params = valueAccessor();

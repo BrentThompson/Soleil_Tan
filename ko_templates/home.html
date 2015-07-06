@@ -1,11 +1,18 @@
-<h3>Home page</h3>
+<h2>Soleil Tan</h2>
 <button type="button" class="btn btn-default" data-bind="click: Adduser_Button, visible: user_list().length == 0">Add User</button>
 <ul data-bind="foreach: user_list, visible: user_list().length > 0">
   <li class="list_item">
     <td>
+      <!-- ko if: typeof dname !== 'undefined' -->
+      <button type = "button" class="btn btn-default col-sm-5 col-xs-5" data-bind = "click: $parent.Update_Button.bind($data, $index)"><!--ko text: dname()--><!--/ko--></button>
+       <button type="button" class="btn btn-default col-xs-2 col-xs-offset-1" data-bind="click: start_timer">Apply</button>
+      <button type="button" class="btn btn-default col-xs-2 col-xs-offset-1" data-toggle="button" data-bind="click: toggle_active">Active</button>
+      <!-- /ko -->
+      <!-- ko if: typeof dname === 'undefined' -->
       <button type = "button" class="btn btn-default col-sm-5 col-xs-5" data-bind = "click: $parent.Update_Button.bind($data, $index)"><!--ko text: name--><!--/ko--></button>
       <button type="button" class="btn btn-default col-xs-2 col-xs-offset-1" data-bind="">Apply</button>
-      <button type="button" class="btn btn-default col-xs-2 col-xs-offset-1" data-toggle="button">Active</button>
+      <button type="button" class="btn btn-default col-xs-2 col-xs-offset-1" data-toggle="button" data-bind="">Active</button>
+      <!-- /ko -->    
     </td>
   </li>
 </ul>

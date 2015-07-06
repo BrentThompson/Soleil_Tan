@@ -6,10 +6,12 @@
       knockout_amd: "../../bower_components/knockout-amd-helpers/build/knockout-amd-helpers",
       jquery: "../../bower_components/jquery/dist/jquery",
       bootstrap: "../../bower_components/bootstrap/dist/js/bootstrap",
-      slider: "../../bower_components/bootstrap-slider-knockout/bootstrap-slider-knockout-binding",
+      slider: "../../bower_components/bootstrap-slider-knockout/lib/bootstrap-slider",
+      ko_slider: "../../bower_components/bootstrap-slider-knockout/bootstrap-slider-knockout-binding",
       lawnchair: "../../bower_components/kox_lawnchair/lawnchair",
       lawnchair_sqlite: "../../bower_components/kox_lawnchair/adapters/webkit-sqlite",
-      kox_lawnchair: "../../bower_components/kox_lawnchair/kox_lawnchair"
+      kox_lawnchair: "../../bower_components/kox_lawnchair/kox_lawnchair",
+      request: "../../node_modules/request/request"
     },
     baseUrl: '/code/js',
     shim: {

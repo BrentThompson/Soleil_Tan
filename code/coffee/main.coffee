@@ -1,6 +1,8 @@
 define (require) ->
   ko = require 'knockout'
   require 'kox_lawnchair'
+  # request = require 'request'
+  # http = require 'http'
 
   PAGE = 
     ADDUSER: "add_user"
@@ -12,11 +14,13 @@ define (require) ->
     constructor: ->
       @page = ko.observable PAGE.HOME
       @current_user = ko.observable -1
-      @current_user.subscribe (nV) -> console.log nV
+      # @current_user.subscribe (nV) -> console.log nV
       @user_list = ko.observableArray []
       .extend
         store_locally:
           key: "user_list"
+      @current_uv_index = ko.observable 5
+      @current_uv_index.subscribe (nV) -> console.log nV
 
       # @user_list.subscribe (nV) -> console.log nV
       # @current_user.subscribe (nV) -> console.log nV
@@ -45,5 +49,13 @@ define (require) ->
 
     Delete_User: (index) =>
       @user_list.remove @user_list()[index]
+
+    Get_Uvindex: (zipcode) =>
+      request.get { uri:' http://iaspub.epa.gov/enviro/efservice/getEnvirofactsUVHOURLY/ZIP/'+zipcode+'/JSON ', json: true }, (err, r, body) -> results = body
+      body = ko.mapping.fromJS(body)
+      console.log body
+
+    Update_Uvindex: () =>
+      @Get_Uvindex('35811')
 
   return new Main_App()

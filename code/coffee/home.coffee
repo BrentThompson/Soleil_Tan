@@ -10,7 +10,7 @@ define (require) ->
     Update_Button: (index,d,e) =>
       # console.log d
       # console.log e
-      console.log index()
+      # console.log index()
       main.current_user index()
       main.Open_Adduser()
 
