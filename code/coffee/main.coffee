@@ -1,8 +1,9 @@
 define (require) ->
   ko = require 'knockout'
   require 'kox_lawnchair'
+  # http = require 'httpjs'
   # request = require 'request'
-  # http = require 'http'
+
 
   PAGE = 
     ADDUSER: "add_user"

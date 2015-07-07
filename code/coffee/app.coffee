@@ -11,6 +11,7 @@ requirejs.config
     lawnchair_sqlite: "../../bower_components/kox_lawnchair/adapters/webkit-sqlite"
     kox_lawnchair: "../../bower_components/kox_lawnchair/kox_lawnchair"
     request: "../../node_modules/request/request"
+    httpjs: "../../bower_components/http-js/dist/http"
 
 
   baseUrl: '/code/js'

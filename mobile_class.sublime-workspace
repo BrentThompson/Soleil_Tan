@@ -259,7 +259,15 @@
 			"file": "code/coffee/main.coffee",
 			"settings":
 			{
-				"buffer_size": 1503,
+				"buffer_size": 1506,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "code/coffee/app.coffee",
+			"settings":
+			{
+				"buffer_size": 1426,
 				"line_ending": "Windows"
 			}
 		},
@@ -284,14 +292,6 @@
 			"settings":
 			{
 				"buffer_size": 884,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style/parts/settings.less",
-			"settings":
-			{
-				"buffer_size": 514,
 				"line_ending": "Windows"
 			}
 		},
@@ -612,17 +612,17 @@
 	[
 		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www",
 		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/bower_components",
+		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/bower_components/http-js",
+		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/bower_components/http-js/dist",
 		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/code",
+		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/code/coffee",
+		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/code/js",
 		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/ko_templates",
-		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/node_modules",
-		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/node_modules/connect-livereload",
-		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/res",
-		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/res/screen",
-		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/style",
-		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/style/parts"
+		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/style"
 	],
 	"file_history":
 	[
+		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/code/js/app.js",
 		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/code/coffee/app.coffee",
 		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/bower.json",
 		"/C/mobile_class/Soleil_Tan_060815/soleil_tan/www/code/coffee/add_user_nonmonkied.coffee",
@@ -749,8 +749,7 @@
 		"/C/Dropbox/TedChef_dev/website/html/bower_components/requirejs-text/text.js",
 		"/C/Dropbox/TedChef_dev/website/html/dev/styles/recipe/common.less",
 		"/C/Dropbox/TedChef_dev/website/html/crossdomain.xml",
-		"/C/Dropbox/TedChef_dev/website/html/app/views/pages/ui_components.html",
-		"/C/Dropbox/TedChef_dev/website/html/app/code/pages/ui_components.js"
+		"/C/Dropbox/TedChef_dev/website/html/app/views/pages/ui_components.html"
 	],
 	"find":
 	{
@@ -946,7 +945,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -962,38 +961,8 @@
 						"selection":
 						[
 							[
-								2044,
-								2044
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 986.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "code/coffee/main.coffee",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1503,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1407,
-								1407
+								2359,
+								2359
 							]
 						],
 						"settings":
@@ -1003,14 +972,74 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
+					"buffer": 1,
+					"file": "code/coffee/main.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
 					"buffer": 2,
+					"file": "code/coffee/app.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								872,
+								872
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 14.0,
+						"translation.y": 4.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "code/coffee/home.coffee",
 					"semi_transient": false,
 					"settings":
@@ -1036,7 +1065,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1046,7 +1075,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "ko_templates/add_user.html",
 					"semi_transient": false,
 					"settings":
@@ -1076,7 +1105,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "ko_templates/main.html",
 					"semi_transient": false,
 					"settings":
@@ -1088,8 +1117,8 @@
 						"selection":
 						[
 							[
-								744,
-								744
+								884,
+								884
 							]
 						],
 						"settings":
@@ -1102,37 +1131,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "style/parts/settings.less",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 514,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1772,7 +1771,7 @@
 		],
 		"width": 624.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
